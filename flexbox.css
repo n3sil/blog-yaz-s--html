@@ -1,0 +1,81 @@
+.body {
+    background-color: white;
+}
+.contanier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner {
+    width: 100%;
+    height: 100px;
+     background-color:black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    margin-bottom: 5px;}
+.banner h2 {
+    color:white;
+}
+
+.menu {
+    background-color: rgb(57, 58, 58);
+    height: 80px;
+    width: 80%;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content:space-around ;
+     height: 80px;
+     flex-wrap: wrap;
+}
+.menu ul li a {
+    text-decoration: none;
+    color:gray;        
+     font-size: 18px;
+     padding: 20px
+}
+.içerik{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 5px;
+    
+}
+.makale{
+    width:80%;
+    background-color: black;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.reklam {
+    width:20%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.içerik p {
+    color:whitesmoke;
+    text-align: justify;
+    text-indent: 10px ;
+}
+.yanyana {display: flex;
+   }
+   .yanyana p {
+       margin-right: 7px;
+
+   }
+.içerik h3 {
+    color: whitesmoke;
+    
+}
